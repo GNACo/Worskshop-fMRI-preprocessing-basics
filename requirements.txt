@@ -1,0 +1,27 @@
+# Python 3.11 — versiones usadas para desarrollar y probar el taller
+
+# Cálculo científico y visualización
+numpy==2.3.5
+pandas==3.0.5
+scipy==1.15.3
+matplotlib==3.11.1
+scikit-learn==1.8.0
+scikit-image
+
+# Neuroimagen
+nibabel==5.4.2
+nilearn==0.14.0
+antspyx==0.6.3
+antspynet==0.3.2
+tensorflow==2.21.0
+templateflow
+
+# Notebooks y utilidades
+IPython==9.16.1
+ipywidgets==8.1.9
+jupyterlab
+psutil==7.2.2
+
+# Solo se usa para los contenedores MRIQC/fMRIPrep del notebook extendido.
+# PyNeurodesk requiere Linux y virtualización por hardware.
+neurodesk; platform_system == "Linux"

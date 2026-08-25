@@ -1,0 +1,35 @@
+# Local data and generated preprocessing results
+data/
+derivatives/
+.venv/
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local editor/session state
+tamago_save.json
+.DS_Store
+Thumbs.db
+
+# Raster and vector images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+
+# Neuroimaging and generated numerical artifacts
+*.nii
+*.nii.gz
+*.mgh
+*.mgz
+*.npy
+*.npz
+*.mat
+*.dat

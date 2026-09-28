@@ -1,4 +1,5 @@
 # Workshop: fMRI preprocessing basics
+Preparado por: Luisa Fernanda Taho M.
 
 Taller práctico de preprocesamiento anatómico y funcional de resonancia
 magnética funcional en Python. Incluye preparación de imágenes T1w y BOLD,
